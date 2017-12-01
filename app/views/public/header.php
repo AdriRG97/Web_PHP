@@ -1,5 +1,5 @@
 <?php
-$json = file_get_contents("/vendor/google/client_id.json");
+$json = file_get_contents($_SERVER['DOCUMENT_ROOT'] . "/vendor/google/client_id.json");
 $json = json_decode($json); ?>
 
 <!DOCTYPE html>

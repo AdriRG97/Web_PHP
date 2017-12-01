@@ -1,0 +1,13 @@
+{
+  "web": {
+    "client_id": "294494120761-u0s0d7ripum4gdsolkf867v514udoimh.apps.googleusercontent.com",
+    "project_id": "webphp-1510247557608",
+    "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+    "token_uri": "https://accounts.google.com/o/oauth2/token",
+    "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+    "client_secret": "FGxPdG72YhI8cZQMpUNuqZJz",
+    "redirect_uris": [
+      "http://localhost"
+    ]
+  }
+}

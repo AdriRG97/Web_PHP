@@ -1,3 +1,7 @@
+<?php
+$json = file_get_contents("/vendor/google/client_id.json");
+$json = json_decode($json); ?>
+
 <!DOCTYPE html>
 <html lang="es">
 <head>
@@ -6,7 +10,9 @@
     <link rel="icon" href="favicon.ico">
     <link href="/assets/css/bootstrap.css" rel="stylesheet" type="text/css">
     <link href="/assets/css/estilos.css" type="text/css" rel="stylesheet">
-
+    <script src="https://apis.google.com/js/platform.js" async defer></script>
+    <!--    TODO: pasar client_id de json-->
+    <?php echo '<meta name="google-signin-client_id" content="' . $json->web->client_id . '">'; ?>
     <title>Solid.</title>
 </head>
 <body class="pt-6">

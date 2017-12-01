@@ -16,6 +16,7 @@ if (isset($_GET['error'])) {
                 <div class="col-md-3"></div>
                 <div class="col-md-6">
                     <h2>Introduzca detalles del acceso</h2>
+
                     <hr>
                 </div>
             </div>
@@ -68,6 +69,7 @@ if (isset($_GET['error'])) {
                 <div class="col-md-3"></div>
                 <div class="col-md-6">
                     <button type="submit" class="btn btn-success"><i class="fa fa-sign-in"></i> Acceder</button>
+                    <div class="g-signin2" data-onsuccess="onSignIn"></div>
                 </div>
             </div>
         </form>
